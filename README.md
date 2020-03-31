@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is following along with Traversy Media's React hooks tutorial seen here: https://youtu.be/XuFDcZABiDQ
+
+# Component Breakdown
+
+- `Header` that says `Expense Tracker`
+- `Balance` that displays the user's balance
+- `Income/Expense` that shows positive and negative values
+- `TransactionList` that shows list of transactions, headed with `History` as a header
+  - `Transaction` components as individual elements in `TransactionList`
+- `AddTransaction` form, headed with `Add New Transaction` as a text header
+
 ## Available Scripts
 
 In the project directory, you can run:
